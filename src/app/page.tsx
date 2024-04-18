@@ -9,10 +9,10 @@ export default function Home() {
   return (
     <main className="h-screen">
       <Header/>
-      <HeroSection/>
-      <AboutSection/>
+      {/* <HeroSection/> */}
+      {/* <AboutSection/> */}
       {/* <WhySection/> */}
-      <Footer/>
+      {/* <Footer/> */}
     </main>
   );
 }
