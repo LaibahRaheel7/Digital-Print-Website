@@ -5,7 +5,7 @@ import { MdMenu } from "react-icons/md";
 
 function Header() {
   return (
-    <div className="">
+    <div className="w-screen">
       <div className="container mx-auto px-52 py-6 flex justify-between items-center bg-transparent">
         <div className="flex items-center">
             <Image
