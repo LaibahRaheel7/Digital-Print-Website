@@ -35,7 +35,7 @@ function Header() {
 // Custom NavLink component for navigation links
 function NavLink({ href, children }) {
   return (
-    <a href={href} className="px-4 py-2 hover:bg-gray-700 text-[#FF553E] cursor-pointer">
+    <a href={href} className="px-4 py-2 cursor-pointer">
       {children}
     </a>
   );

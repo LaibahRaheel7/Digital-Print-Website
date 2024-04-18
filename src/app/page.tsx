@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className="h-screen">
       <Header/>
-      {/* <HeroSection/> */}
+      <HeroSection/>
       {/* <AboutSection/> */}
       {/* <WhySection/> */}
       {/* <Footer/> */}

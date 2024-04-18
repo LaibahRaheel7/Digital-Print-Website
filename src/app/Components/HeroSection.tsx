@@ -12,8 +12,8 @@ function HeroSection() {
             <button className='bg-[#FF553E] text-white rounded py-2 px-4 text-sm'>Let's Talk Us</button>
         </div>
       </div>
-      <div className='w-1/2'>
-        <Image src="/section1.png" width={1500} height={1500} alt='hero image'/>
+      <div className='w-1/2 absolute right-20 top-20'>
+        <Image src="/section1.png" width={872} height={588} alt='hero image' className='relative'/>
       </div>
 
     </div>
