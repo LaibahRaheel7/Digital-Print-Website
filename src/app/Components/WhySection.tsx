@@ -6,7 +6,7 @@ function WhySection() {
     <div className='container mx-auto px-6 2xl:px-56 py-6 font-sans flex flex-col items-center justify-center h-full'>
       <div className='text-center'>
         <div className='text-2xl font-bold text-[#FF553E]'>Why?</div>
-        <div className='text-5xl mt-2 md:mx-12 xl:mx-8 leading-relaxed'>Fast, Cheap And High Quality Digital Prints Why Not?</div>
+        <div className='text-5xl mt-2 mx-4 md:mx-12 xl:mx-32 leading-relaxed'>Fast, Cheap And High Quality Digital Prints Why Not?</div>
       </div>
       <div className='flex flex-wrap justify-between mt-6 '>
         <div className='text-center w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-8 flex flex-col items-center justify-center'>

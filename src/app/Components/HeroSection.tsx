@@ -5,8 +5,8 @@ import Header from './Header';
 function HeroSection() {
   return (
     <div className=''>
-      <Image src='/hero_bgimg.png' width={300} height={300} className='w-full lg:h-4/5 h-full absolute z-0' alt='background'/>
-      <Image src='/redshade.png' width={600} height={500} className='absolute bottom-1 z-10' alt='redshade'/>
+      <Image src='/hero_bgimg.png' width={1100} height={900} className='w-full lg:h-4/5 h-full absolute z-0' alt='background'/>
+      <Image src='/redshade.png' width={600} height={500} className='absolute top-1/3 z-10' alt='redshade'/>
       <Image src='/blueshade.png' width={600} height={500} className='absolute left-4 z-10' alt='blueshade'/>
       <Image src='/greenshade.png' width={750} height={700} className='absolute right-2 z-10' alt='greenshade'/>
       <Image src='/vector2.png' width={30} height={40} className='hidden xl:block absolute xl:right-28 xl:top-24 z-30' alt=''/>
