@@ -55,7 +55,7 @@ function ContactForm() {
           </div>
         </div>
         <div className="hidden md:block absolute bottom-0 right-0 mb-24 mr-24">
-          <Image src='/contactform.png' width={222} height={222} alt=''/>
+          {/* <Image src='/contactform.png' width={222} height={222} className='absolute mx-64 my-24'  alt=''/> */}
         </div>
       </div>
       <form onSubmit={handleSubmit} className="flex flex-col space-y-4 m-5 md:w-1/2">
