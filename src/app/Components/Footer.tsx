@@ -14,11 +14,11 @@ function Footer() {
         <div className='flex flex-wrap w-full my-10'>
           <div className='w-full text-sm md:w-1/3 px-12 my-4'>
             <div className='flex mb-4'>
-              <FaLocationDot className='m-1' />
+              <FaLocationDot size={20} className='m-1' />
               <div className='mx-2'>Office 9, AH Building, Makka Street, Al Rawda 1, Ajman, U.A.E</div>
             </div>
             <div className='flex items-center mb-4'>
-              <FaPhoneAlt className='mr-2'/>
+              <FaPhoneAlt size={20} className='mr-2'/>
               <div>+971 6 520 6845</div>
             </div>
             <div className='text-[#FF5536]'>Open Hours:</div>

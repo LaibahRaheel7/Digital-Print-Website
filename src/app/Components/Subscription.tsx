@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 function Subscription() {
   return (
-    <div className="flex justify-center items-center min-h-screen">
+    <div className="flex justify-center items-center my-24">
       <div className="relative w-full sm:w-auto">
         {/* Background image */}
         <Image src="/subsvector.png" className="absolute inset-0 w-full h-full object-cover" alt="" layout="fill" />
