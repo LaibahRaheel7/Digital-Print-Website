@@ -12,7 +12,7 @@ function Contact() {
             <div className='text-3xl lg:text-5xl'>Feedback from Client</div>
           </div>
           <div className='my-12'>
-            <div className='flex flex-col items-center lg:flex-row lg:justify-center xl:mx-auto max-w-screen-lg px-4'>
+            <div className='flex flex-col items-center lg:flex-row lg:justify-center lg:mx-auto max-w-screen-lg px-4'>
               <div className='flex flex-col lg:flex-row justify-center'>
                 <div className='relative mb-4 lg:mr-4'>
                   <Image src='/contactchat.png' width={500} height={256} className='' alt='' />

@@ -38,8 +38,8 @@ function ContactForm() {
   return (
     <div className="mx-auto max-w-5xl flex flex-col md:flex-row bg-white rounded-lg shadow-xl">
       <div className="bg-blue-500 text-white p-6 rounded-lg m-5 md:w-1/2">
-        <h2 className="text-2xl font-bold mb-4">Contact Information</h2>
-        <p className="mb-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in </p>
+        <h2 className="text-2xl text-white font-bold mb-4">Contact Information</h2>
+        <p className="mb-4 text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in </p>
         <div className="space-y-4">
           <div className='flex'>
             <FaPhoneAlt size={20} className='mr-2'/>
@@ -61,7 +61,7 @@ function ContactForm() {
       <form onSubmit={handleSubmit} className="flex flex-col space-y-4 m-5 md:w-1/2">
         <div className='flex flex-col md:flex-row mt-12 pb-6'>
           <div className="flex flex-col flex-grow mr-4">
-            <label htmlFor="name" className="mb-2">Your Name</label>
+            <label htmlFor="name" className="mb-2 text-black">Your Name</label>
             <input
               type="text"
               id="name"
@@ -72,8 +72,8 @@ function ContactForm() {
               required
             />
           </div>
-          <div className="flex flex-col flex-grow">
-            <label htmlFor="email" className="mb-2">Your Email</label>
+          <div className="flex flex-col flex-grow mt-10 md:mt-0">
+            <label htmlFor="email" className="mb-2 text-black">Your Email</label>
             <input
               type="email"
               id="email"
@@ -86,7 +86,7 @@ function ContactForm() {
           </div>
         </div>
         <div className="flex flex-col py-6">
-          <label htmlFor="subject" className="">Subject</label>
+          <label htmlFor="subject" className="text-black">Subject</label>
           <input
             type="text"
             id="subject"
@@ -98,7 +98,7 @@ function ContactForm() {
           />
         </div>
         <div className="flex flex-col py-6">
-          <label htmlFor="message" className="">Message</label>
+          <label htmlFor="message" className="text-black">Message</label>
           <textarea
             id="message"
             name="message"
@@ -122,7 +122,7 @@ function ContactForm() {
         </div>
       </form>
       <div className="md:hidden text-center">
-        <Image src='/contactform.png' width={222} height={222} alt=''/>
+        {/* <Image src='/contactform.png' width={222} height={222} alt=''/> */}
       </div>
     </div>
   );

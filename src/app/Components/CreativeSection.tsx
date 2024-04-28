@@ -8,7 +8,7 @@ function CreativeSection() {
       {/* Content */}
       <div className='px-6 2xl:px-56 py-6 font-sans flex flex-col lg:flex-row z-10'>
         {/* Left Section */}
-        <div className=' w-full lg:w-1/2 py-2 lg:pl-12'>
+        <div className='container w-full lg:w-1/2 py-2 lg:pl-12'>
           <div className='text-lg text-[#FF553E] pb-4 flex'>
             <p className='underline underline-offset-1'>Creati</p>ve Services
           </div>
@@ -21,16 +21,16 @@ function CreativeSection() {
           </div>
           <div className='leading-7  text-base'>
             <div className='flex my-4 tracking-wide'>
-              <TiTick size={50} className='mx-3 my-2' color='#FF553E' />
-              <div>All the Lorem Ipsum generators on the Internet tend to at predefined chunks as necessar</div>
+              <TiTick size={50} className='mx-3 my-2 md:my-0' color='#FF553E' />
+              <div className='md:my-2'>All the Lorem Ipsum generators on the Internet tend to at predefined chunks as necessar</div>
             </div>
             <div className='flex my-4 tracking-wide'>
-              <TiTick size={50} className='my-2 mx-3' color='#FF553E' />
-              <div>The standard chunk of Lorem Ipsum used since there below for those interested.</div>
+              <TiTick size={50} className='my-2 mx-3 md:my-0' color='#FF553E' />
+              <div className='md:my-2'>The standard chunk of Lorem Ipsum used since there below for those interested.</div>
             </div>
             <div className='flex my-4 tracking-wide'>
-              <TiTick size={50} className='my-2 mx-3' color='#FF553E' />
-              <div>All the Lorem Ipsum generators on the Internet tend to at predefined chunks as necessar</div>
+              <TiTick size={50} className='my-2 mx-3 md:my-0' color='#FF553E' />
+              <div className='md:my-2'>All the Lorem Ipsum generators on the Internet tend to at predefined chunks as necessar</div>
             </div>
             <div className='lg:text-left'>
               <button className='bg-[#FF553E] text-white rounded-lg py-4 lg:py-5 px-10 lg:px-12 text-sm my-4'>
@@ -40,7 +40,7 @@ function CreativeSection() {
           </div>
         </div>
         {/* Right Section */}
-        <div className=' w-full lg:w-1/2 flex-col flex justify-center items-center md:flex-row mx-4'>
+        <div className='container w-full lg:w-1/2 flex-col flex justify-center items-center md:flex-row mx-4'>
           <div className='w-1/2 mx-4'>
             <div className='bg-white rounded-lg my-6 py-4'>
               <div className='text-center py-8'>
